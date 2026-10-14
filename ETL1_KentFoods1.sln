@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.37627.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "ETL1_KentFoods1", "ETL1_KentFoods1\ETL1_KentFoods1.dtproj", "{83E47B48-A3DB-4F44-9561-C7A5186EDD30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83E47B48-A3DB-4F44-9561-C7A5186EDD30}.Development|Default.ActiveCfg = Development
+		{83E47B48-A3DB-4F44-9561-C7A5186EDD30}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA36E68D-7125-43BE-B35B-BF35B12357C3}
+	EndGlobalSection
+EndGlobal
