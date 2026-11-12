@@ -1,0 +1,89 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>OLAP_KentFoods</Database>
+    <Server>SEBITAKITKAT\DEV2019</Server>
+    <ConnectionString>Data Source=SEBITAKITKAT\DEV2019;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>Default</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>T/JBeDY5xQN5w545jK4IJp82xNs=11/12/2026 4:58:32 AM11/11/2026 6:15:58 PM</TimeStamp>
+        <ID>
+          <String>Kent Foods Data Warehouse</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>JBnvBoQNtEbjd2+pGBlQT5yKd1Y=11/12/2026 3:50:41 AM11/11/2026 6:15:58 PM</TimeStamp>
+        <ID>
+          <String>Kent Foods Data Warehouse</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>aFywB9GIU7WiwYX9OPStOEblaqw=11/12/2026 3:50:41 AM11/11/2026 6:15:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Tiempo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>whSNID3+uQCshnuOqMJcDMlj1q4=11/12/2026 3:50:41 AM11/11/2026 6:15:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Cliente</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>UrOa0UUlB7t1YCa8t7V/5mm7gRg=11/12/2026 3:50:41 AM11/11/2026 6:15:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Empleado</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>Z8rcZ0MuM+EpefXH5MQ+ORp3Y6M=11/12/2026 3:50:41 AM11/11/2026 6:15:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Transportista</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3qc3W/eO/RnGFm9gtNwUXjg6Pao=11/12/2026 3:50:41 AM11/11/2026 6:15:58 PM</TimeStamp>
+        <ID>
+          <String>Dim Producto</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>x5gYTW/gCka8TVpvSBh6aD0Aoe4=11/12/2026 3:50:41 AM11/11/2026 6:15:58 PMSvP0fqVgXoOUBSACxZaq+CYo6H0=11/12/2026 3:50:41 AM11/11/2026 6:15:58 PM</TimeStamp>
+        <ID>
+          <String>Kent Foods Data Warehouse</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>fZp5Dz/q/UlhPOxnq5AH/EUipuA=11/12/2026 3:50:41 AM11/11/2026 6:15:58 PM</TimeStamp>
+      <ID>
+        <String>OLAP_KentFoods</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2026-11-12T07:59:45.85Z</LastDeployed>
+</DeploymentSnapshot>
