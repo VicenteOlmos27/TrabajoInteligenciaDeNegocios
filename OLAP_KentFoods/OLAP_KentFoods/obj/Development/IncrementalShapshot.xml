@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <ProcessingOption>Default</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -26,49 +26,49 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>B354/f7gq6wBE1jo6aBRJ2HWWGk=10-11-2026 23:48:1110-11-2026 23:48:11</TimeStamp>
+        <TimeStamp>B354/f7gq6wBE1jo6aBRJ2HWWGk=11-11-2026 19:59:0910-11-2026 23:48:11</TimeStamp>
         <ID>
           <String>Kent Foods Data Warehouse</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>Jb8FeBm25M304lG4c9y1GJTADzQ=10-11-2026 23:50:2110-11-2026 23:50:20</TimeStamp>
+        <TimeStamp>cEpEEZkyIMbS3YlGqXyCvV8FqPs=11-11-2026 19:54:5710-11-2026 23:50:20</TimeStamp>
         <ID>
           <String>Dim Tiempo</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>QJtu2RwxnbusFKvoeuZwAPz5z/I=10-11-2026 23:51:4610-11-2026 23:50:21</TimeStamp>
+        <TimeStamp>yFvMr7xlx83fXDJt/wqgYecJp6E=11-11-2026 19:59:0410-11-2026 23:50:21</TimeStamp>
         <ID>
           <String>Dim Cliente</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>LWyhZAu/WSRaS5Qqghq7nB9mMjA=10-11-2026 23:50:2110-11-2026 23:50:21</TimeStamp>
+        <TimeStamp>iBQJiGefEy7sN8q+S+Johqvnnec=11-11-2026 19:58:2810-11-2026 23:50:21</TimeStamp>
         <ID>
           <String>Dim Empleado</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>uPQH5x9ir1+98rx5a0JztHAqjME=10-11-2026 23:50:2110-11-2026 23:50:21</TimeStamp>
+        <TimeStamp>xc7NDRp5HpzdobG5KWugo6OjxAM=11-11-2026 19:58:2810-11-2026 23:50:21</TimeStamp>
         <ID>
           <String>Dim Transportista</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>xk8BUF39e6ttCmXDrnWV5LJi3M0=10-11-2026 23:51:4610-11-2026 23:50:21</TimeStamp>
+        <TimeStamp>hYV3vw3x7YSEi5NXALMzTTUJYiQ=11-11-2026 19:58:2810-11-2026 23:50:21</TimeStamp>
         <ID>
           <String>Dim Producto</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>fNnVMSyNLoSEwzIso4YeDIfQrjQ=10-11-2026 23:51:4610-11-2026 23:50:20mK0QPLVy0PrhWIxyeE/p2pQBJVo=10-11-2026 23:50:2110-11-2026 23:50:20</TimeStamp>
+        <TimeStamp>7vGY+kSjpCXpIO0wY0BPLMSLLcw=11-11-2026 19:58:2810-11-2026 23:50:20mK0QPLVy0PrhWIxyeE/p2pQBJVo=10-11-2026 23:50:2110-11-2026 23:50:20</TimeStamp>
         <ID>
           <String>Kent Foods Data Warehouse</String>
         </ID>
@@ -85,5 +85,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2026-11-11T02:53:11.203333Z</LastDeployed>
+  <LastDeployed>2026-11-11T23:04:53.353333Z</LastDeployed>
 </DeploymentSnapshot>
