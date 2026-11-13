@@ -23,7 +23,7 @@ Proceso de Negocio: Gestión de Ventas y Envíos de productos alimenticios.
 Granularidad: Cada detalle o línea individual de una orden de compra (producto por orden).
 <img width="1667" height="508" alt="image" src="https://github.com/user-attachments/assets/182dca7e-856e-43e5-9ace-ee94a4655eea" />
 
-Detalle del Trabajo Técnico Realizado
+Detalle del Trabajo Técnico Realizado (Fase 1)
 Durante el desarrollo del proyecto se ejecutaron las siguientes actividades clave:
 Análisis e Inspección del Origen:
 Se examinó la estructura de la base de datos de origen KentFoods para mapear los campos requeridos por las dimensiones.
@@ -35,7 +35,7 @@ evitando errores de conversión implícita durante la carga.
 Se definieron restricciones de integridad referencial (FOREIGN KEY) entre la tabla de hechos y las dimensiones.
 
 Desarrollo del Proceso ETL en SSIS:
-Se crearon componentes de lectura Origen de OLE DB conectados a KentFoods y componentes de escritura Destino de OLE DB conectados a KentFoods_DataWarehouse.
+Se crearon componentes de lectura Origen de OLE DB conectados a localhost (KentFoods) y componentes de escritura Destino de OLE DB conectados a localhost (KentFoods_DataWarehouse).
 Se implementaron consultas T-SQL personalizadas en las fuentes de origen para la extracción limpia de datos:
 Empleado: Concatenación de nombre y apellido (NombreCompleto).
 Producto: Combinación LEFT JOIN entre la tabla de productos y categorías.
@@ -47,3 +47,9 @@ Se estableció la secuencia de ejecución en el Control Flow, priorizando la car
 
 Se resolvieron errores de compatibilidad de tipos de datos Unicode/no-Unicode (0x80040E21 y DTS_E_OLEDBERROR) 
 mediante el alineamiento de esquemas a tipos NVARCHAR y la inclusión de conversiones explícitas (CAST).
+
+Fase 2
+Configuración del Cubo OLAP y Explotación (SSAS y Power BI)
+Se estructuró el cubo multidimensional OLAP_KentFoods en Analysis Services utilizando localhost como servidor de conexión.
+Se configuraron las propiedades KeyColumns y NameColumn en las dimensiones (como Dim Producto y sus categorías) para mapear correctamente los IDs internos con sus descripciones en texto legible.
+Se conectó Power BI al servidor localhost para consumir el modelo analítico procesado, permitiendo visualizar los reportes y tableros interactivos libres de duplicados o códigos numéricos.
