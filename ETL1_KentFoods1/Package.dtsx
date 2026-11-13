@@ -11,8 +11,8 @@
   DTS:LocaleID="13322"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="24"
-  DTS:VersionGUID="{64F33222-8611-4790-BF3F-E1A24095ADDA}">
+  DTS:VersionBuild="27"
+  DTS:VersionGUID="{54BFAAE3-6663-4A7D-85E2-01AFB5050D55}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -2516,7 +2516,7 @@ INNER JOIN dbo.DetalleOrden d ON o.OrdenID = d.OrdenID;</property>
         <NodeLayout
           Size="137,42"
           Id="Package\Fact_Ventas"
-          TopLeft="469.166655143103,396.833334848616" />
+          TopLeft="470.166655143103,395.833334848616" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
           TopLeft="408.833333333333,196.833333539963">
@@ -2629,18 +2629,18 @@ INNER JOIN dbo.DetalleOrden d ON o.OrdenID = d.OrdenID;</property>
         </EdgeLayout>
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint 5]"
-          TopLeft="536.249986224705,363.100002534655">
+          TopLeft="536.749986224705,363.100002534655">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="0,33.7333323139614"
+              EndConnector="0,32.733332313961"
               Start="0,0"
-              End="0,26.2333323139614">
+              End="0,25.233332313961">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="0,26.2333323139614" />
+                    End="0,25.233332313961" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -2732,7 +2732,7 @@ INNER JOIN dbo.DetalleOrden d ON o.OrdenID = d.OrdenID;</property>
     design-time-name="Package\Dim_Empleado">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="165,42"
           Id="Package\Dim_Empleado\Origen de OLE DB"
@@ -2772,9 +2772,7 @@ INNER JOIN dbo.DetalleOrden d ON o.OrdenID = d.OrdenID;</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -2886,7 +2884,7 @@ INNER JOIN dbo.DetalleOrden d ON o.OrdenID = d.OrdenID;</property>
     design-time-name="Package\Dim_Tiempo">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="171,42"
           Id="Package\Dim_Tiempo\OLE DB Destination"
@@ -2894,41 +2892,39 @@ INNER JOIN dbo.DetalleOrden d ON o.OrdenID = d.OrdenID;</property>
         <NodeLayout
           Size="150,42"
           Id="Package\Dim_Tiempo\OLE DB Source"
-          TopLeft="588.5,163.5" />
+          TopLeft="587.5,163.5" />
         <EdgeLayout
           Id="Package\Dim_Tiempo.Paths[OLE DB Source Output]"
-          TopLeft="588.5,184.5">
+          TopLeft="587.5,184.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-158,-19"
+              EndConnector="-157,-19"
               Start="0,0"
-              End="-150.5,-19">
+              End="-149.5,-19">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-75,0" />
+                    End="-74.5,0" />
                   <mssgle:CubicBezierSegment
-                    Point1="-75,0"
-                    Point2="-79,0"
-                    Point3="-79,-4" />
+                    Point1="-74.5,0"
+                    Point2="-78.5,0"
+                    Point3="-78.5,-4" />
                   <mssgle:LineSegment
-                    End="-79,-15" />
+                    End="-78.5,-15" />
                   <mssgle:CubicBezierSegment
-                    Point1="-79,-15"
-                    Point2="-79,-19"
-                    Point3="-83,-19" />
+                    Point1="-78.5,-15"
+                    Point2="-78.5,-19"
+                    Point3="-82.5,-19" />
                   <mssgle:LineSegment
-                    End="-150.5,-19" />
+                    End="-149.5,-19" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -2964,7 +2960,7 @@ INNER JOIN dbo.DetalleOrden d ON o.OrdenID = d.OrdenID;</property>
     design-time-name="Package\Dim_Transportista">
     <LayoutInfo>
       <GraphLayout
-        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mssgm="clr-namespace:Microsoft.SqlServer.Graph.Model;assembly=Microsoft.SqlServer.Graph">
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
           Size="165,42"
           Id="Package\Dim_Transportista\Origen de OLE DB"
@@ -3004,9 +3000,7 @@ INNER JOIN dbo.DetalleOrden d ON o.OrdenID = d.OrdenID;</property>
             </mssgle:Curve>
           </EdgeLayout.Curve>
           <EdgeLayout.Labels>
-            <mssgm:EdgeLabel
-              BoundingBox="0,0,0,0"
-              RelativePosition="Any" />
+            <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
       </GraphLayout>
@@ -3046,25 +3040,25 @@ INNER JOIN dbo.DetalleOrden d ON o.OrdenID = d.OrdenID;</property>
         <NodeLayout
           Size="150,42"
           Id="Package\Fact_Ventas\OLE DB Source"
-          TopLeft="320,94.5333333333333" />
+          TopLeft="322,93.5333333333333" />
         <NodeLayout
           Size="171,42"
           Id="Package\Fact_Ventas\OLE DB Destination"
           TopLeft="28.6666666666666,91.7999999999999" />
         <EdgeLayout
           Id="Package\Fact_Ventas.Paths[OLE DB Source Output]"
-          TopLeft="320,114.166666666667">
+          TopLeft="322,113.666666666667">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="-120.333333333333,0"
+              EndConnector="-122.333333333333,0"
               Start="0,0"
-              End="-112.833333333333,0">
+              End="-114.833333333333,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="-112.833333333333,0" />
+                    End="-114.833333333333,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
