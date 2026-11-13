@@ -48,7 +48,8 @@ Se estableció la secuencia de ejecución en el Control Flow, priorizando la car
 Se resolvieron errores de compatibilidad de tipos de datos Unicode/no-Unicode (0x80040E21 y DTS_E_OLEDBERROR) 
 mediante el alineamiento de esquemas a tipos NVARCHAR y la inclusión de conversiones explícitas (CAST).
 
-Fase 2
+Fase 2 OLAP y Power Bi
+
 Configuración del Cubo OLAP y Explotación (SSAS y Power BI)
 Se estructuró el cubo multidimensional OLAP_KentFoods en Analysis Services utilizando localhost como servidor de conexión.
 Se configuraron las propiedades KeyColumns y NameColumn en las dimensiones (como Dim Producto y sus categorías) para mapear correctamente los IDs internos con sus descripciones en texto legible.
